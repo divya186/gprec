@@ -1,0 +1,237 @@
+<html>
+ <body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style1.css"></link>
+    <style>
+   /***{
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+ font-family: consolas;
+}
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:linear-gradient(to right,lightpink,cadetblue);
+  min-height: 100vh;
+
+}**/
+
+.container
+{
+  position: relative;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+
+
+}
+.container .box{
+  position: relative;
+  width: 400px;
+  height: 600px;
+  color: #000;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+  transition: 0.5s;
+
+}
+.container .box:hover
+{
+  transform: translateY(-20px);
+}
+.container .box::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg,#ffbc00,#ff0058);
+  filter: blur(30px);
+
+}
+.container .box::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg,lightpink,cadetblue);
+  filter: blur(30px);
+
+}
+.container .box::nth-child(2)::before,
+.container .box::nth-child(2)::after
+{
+   background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+/**.container .box::nth-child(3)::before,
+.container .box::nth-child(3)::after
+{
+   background: linear-gradient(315deg,#4dff03,#00d0ff);
+}**/S
+.container .box span
+{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  background: rgb(0, 0, 0,0.6);
+  z-index: 2;
+}
+.container .box span::before
+{ content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 100%;
+  background: rgb(255, 255, 255,0.1);
+  pointer-events:none ;
+}
+.container .box .content 
+{
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+  
+}
+.container .box .content h2
+{
+  font-size: 2em;
+  color: #000;
+  margin-bottom: 10px;
+}
+.container .box .content p
+{
+  font-size: 1.1em;
+  color: #navy;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+.container .box .content a
+{
+  font-size: 1.1em;
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+</style>
+</head>
+<body>
+  <img src="gp2.jfif" width="150px" height="70px"/>&emsp;&emsp;<marquee width="80%" direction="right"><p><bold style="color:navy;font-size:30px">G.Pulla Reddy Engineering College (Autonomous)</bold></p></marquee>
+  <div class="headerpart2"><center>&emsp;&emsp;&emsp;&emsp;&emsp;<ul>
+       <br><br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;
+        <li><a href="index.html">Home</a></li>
+       <li class="active"><a href="#">Forums</a>
+       <div class="sub-menu-3">
+       <ul>
+           <li><a href="ieee.html">IEEE</a></li>
+           <li><a href="#">CAD</a></li>
+           <!-- <li><a href="#">IEI</a></li> -->
+           </ul></div></li>&emsp;
+       <!--<li><a href="events.html">Events</a>-->
+        <li><a href="circulars.html">Circulars</a><!--
+<div class="sub-menu-3">
+       <ul>
+           <li><a href="#">Computer Science Engineering</a></li>
+           <li><a href="#">Elecrtical and Communication Engineering</a></li>
+           <li><a href="#">Electrical and Elecrtonics Engineering</a></li>
+           <li><a href="#">Mechanical Engineering</a></li>
+           <li><a href="#">Civil Engineering</a></li>
+           
+           </ul></div>--></li>&emsp;
+       <li><a href="workshop.html">Workshops</a>
+        </li>
+
+        <li><a href="aboutus.html">About us</a>
+          </ul></center>
+     </div>
+&emsp;&emsp;
+    <div class="container">
+      <div class="box">
+        <span></span>
+        <div class="content">
+          <h2>Real Time Aspects of Automation in Industry Need of the Hour</h2>
+          <p><h5>&emsp;&emsp;   Greetings from  EEE Dept, GPREC, Kurnool 
+Automation is cost cutting by tightening the corners and not cutting them</h5>
+
+<h5>As part of  AICTE/ISTE faculty development programme, the Department of Electrical and Electronic Engineering is organizing a one week online FDP on <bold>"Real Time Aspects of Automation in Industry Need of the Hour".</bold>
+The FDP serves you to know about ongoing changes that are happening in the Industrial Automation.</h5>
+
+<h5>Date: 🗓️ 3 January - 8 January 2022</h5>
+<h6>Fill the Google form and join us:<a href="https://forms.gle/ufEPXXwArGDEAJVm6">
+https://forms.gle/ufEPXXwArGDEAJVm6</a></h6>
+
+<h6>Thanks and Regards</h6>
+<h6>Dr. T. Bramhananda Reddy 
+Coordinator</h6>
+<h6>Professor & Head, EEE Department</h6>
+<h6>Dr. Y.V. Siva Reddy</h6>
+<h6>Co -coordinator
+Professor & Dean, EEE Department</h6>
+<h6>For further queries, </h6>
+<h6>contact: 9966124224 ,7095667776, 9849203647</h6></p>
+        </div>
+      </div>
+       <div class="box">
+        <span></span>
+        <div class="content">
+          <h2>IMPACT LECTURE SERIES</h2>
+          <p><h5>G Pulla Reddy Engineering College (Autonomous): Kurnool
+Center for Innovation & Entrepreneurship (CIE)</h5>
+
+<h5>Greetings from Center for Innovation & Entrepreneurship (CIE), G Pulla Reddy Engineering College, Kurnool.  We are pleased to announce that GPREC’s IIC is organizing online  IMPACT LECTURE SERIES 2021 sponsored by Ministry of Education's Innovation Cell & AICTE.</h5>
+
+<h5>Impact Lecture Series: Session 1 is scheduled on 23rd Oct 2021 (Saturday)
+Timing: 10.30 AM to 12.00 Noon</h5>
+
+<h5>Sri V. Srinivasa Reddy, Executive Director, Synergy Green Industries Ltd, 
+Kolhapur, Maharashtra.
+Topic - Journey of an Entrepreneur.</h5>
+
+<h6>Impact Lecture Series: Session 2 is scheduled on 23rd Oct 2021 (Saturday)
+Timing: 03.00 PM to 04.30 PM
+
+Sri.Muthyala Sarath, Associate Faculty Member, National Institute for Micro 
+Small and Medium Enterprises, Hyderabad.
+Topic - Entrepreneurship and Innovation as Career Opportunity.
+
+All the students and faculty are requested to Register Registration is FREE for this series.</h6>
+
+<h6>Registration Link: <a href="https://forms.gle/9KuD8HyzUufb9SAB6">https://forms.gle/9KuD8HyzUufb9SAB6</a>
+Joining Information: Mode: Google Meet
+
+Google Meeting link:
+To join the video meeting, click this link: <a href="https://meet.google.com/eeg-pbkb-dus">https://meet.google.com/eeg-pbkb-dus</a>
+E-certificate will be provided after submission of feedback form.</h6></p>
+        </div>
+      </div>
+      <!--<div class="box">
+        <span></span>
+        <div class="content">
+          <h2>card 3</h2>
+          <p>w1</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>-->
+<h5 style="text-align: right;padding-right: 20px;"> For queries and suggestions, e-mail us at  <a href="mailto: abc@gmail.com"> abc@gmail.com </a></h5>
+
+</body>
+</html>
